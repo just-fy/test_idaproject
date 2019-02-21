@@ -1,0 +1,29 @@
+{
+  "name": "test_idaproject",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/just-fy/test_idaproject.git"
+  },
+  "author": "Nastya Faizulina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just-fy/test_idaproject/issues"
+  },
+  "homepage": "https://github.com/just-fy/test_idaproject#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
