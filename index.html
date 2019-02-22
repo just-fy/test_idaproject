@@ -12,11 +12,11 @@
 <nav class="main-nav">
     <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-            <li class="site-list__item"><a href="#">Личный кабинет</a></li>
-            <li class="site-list__item site-list__item--active"><a href="#">Платежи</a></li>
-            <li class="site-list__item"><a href="#">История платежей</a></li>
-            <li class="site-list__item"><a href="#">Настройки</a></li>
-            <li class="site-list__item site-list__item--logout"><a href="#">Выйти</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">Личный кабинет</a></li>
+            <li class="site-list__item site-list__item--active"><a class="site-list__link site-list__link--active" href="#">Платежи (активная)</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">История платежей</a></li>
+            <li class="site-list__item site-list__item--user"><a class="site-list__link" href="#">Настройки</a></li>
+            <li class="site-list__item site-list__item--user"><a class="site-list__link site-list__link--logout" href="#">Выйти</a></li>
         </ul>
     </div>
 </nav>
@@ -28,9 +28,57 @@
     </div>
     <h1>Данные банковской карты</h1>
     <section class="payment-form__card">
-
-    </section>>
-</section>>
+        <form class="front-side-card" action="">
+            <fieldset class="card-number__wrapper">
+                <label for="card-number"><span>Номер карты</span></label>
+                <input id="card-number" type="number" maxlength="4" />
+                <input type="number" maxlength="4" />
+                <input type="number" maxlength="4" />
+                <input type="number" maxlength="4" />
+            </fieldset>
+            <fieldset class="card-expiration-date">
+                <label for="card-exp"><span>Срок действия</span></label>
+                <select id="card-exp">
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                    <option value="">04</option>
+                    <option value="">05</option>
+                    <option value="">06</option>
+                    <option value="">07</option>
+                    <option value="">08</option>
+                    <option value="">09</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                </select>
+                <select>
+                    <option value="">2019</option>
+                    <option value="">2020</option>
+                    <option value="">2021</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                    <option value="">2024</option>
+                    <option value="">2025</option>
+                    <option value="">2026</option>
+                </select>
+            </fieldset>
+            <fieldset class="payment-form__card-holder">
+                <input type="text" value="Держатель карты" name="card-holder" />
+            </fieldset>
+        </form>
+        <form action="" class="back-side-card">
+            <fieldset class="back-side-card__wrapper">
+                <label for="card-cvv"><span>Код CVV2 / CVC2</span></label>
+                <input id="card-cvv" type="number" maxlength="4" />
+            </fieldset>
+        </form>
+        <input type="submit" class="payment-form__card-button">
+    </section>
+</section>
+<footer>
+    <p>Loremipsum</p>
+</footer>
 <script type="text/javascript" src="dist/bundle.js"></script>
 </body>
 </html>
