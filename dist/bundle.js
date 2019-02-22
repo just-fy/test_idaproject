@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_js_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/js.js */ \"./src/js/js.js\");\n/* harmony import */ var _js_js_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_js_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _js_js2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/js2.js */ \"./src/js/js2.js\");\n/* harmony import */ var _js_js2_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_js2_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/base.scss */ \"./src/scss/base.scss\");\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_base_scss__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_js_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/js.js */ \"./src/js/js.js\");\n/* harmony import */ var _js_js_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_js_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _js_js2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/js2.js */ \"./src/js/js2.js\");\n/* harmony import */ var _js_js2_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_js2_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/base.scss */ \"./src/scss/base.scss\");\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_base_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scss_typography_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/typography.scss */ \"./src/scss/typography.scss\");\n/* harmony import */ var _scss_typography_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_typography_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -128,6 +128,17 @@ eval("console.log('Another checking');\n\n//# sourceURL=webpack:///./src/js/js2.
 /***/ (function(module, exports) {
 
 eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/base.scss?");
+
+/***/ }),
+
+/***/ "./src/scss/typography.scss":
+/*!**********************************!*\
+  !*** ./src/scss/typography.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/typography.scss?");
 
 /***/ })
 
