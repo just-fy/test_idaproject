@@ -39,52 +39,57 @@
                     </table>
             </header>
             <section class="payment-form__card">
-                <h1 class="payment-form__heading">Данные банковской карты</h1>
-                <form class="front-side-card" action="">
-                    <fieldset class="card-number__wrapper">
-                        <label for="card-number"><span>Номер карты</span></label>
-                        <input id="card-number" type="number" maxlength="4" />
-                        <input type="number" maxlength="4" />
-                        <input type="number" maxlength="4" />
-                        <input type="number" maxlength="4" />
-                    </fieldset>
-                    <fieldset class="card-expiration-date">
-                        <label for="card-exp"><span>Срок действия</span></label>
-                        <select id="card-exp">
-                            <option value="">01</option>
-                            <option value="">02</option>
-                            <option value="">03</option>
-                            <option value="">04</option>
-                            <option value="">05</option>
-                            <option value="">06</option>
-                            <option value="">07</option>
-                            <option value="">08</option>
-                            <option value="">09</option>
-                            <option value="">10</option>
-                            <option value="">11</option>
-                            <option value="">12</option>
-                        </select>
-                        <select>
-                            <option value="">2019</option>
-                            <option value="">2020</option>
-                            <option value="">2021</option>
-                            <option value="">2022</option>
-                            <option value="">2023</option>
-                            <option value="">2024</option>
-                            <option value="">2025</option>
-                            <option value="">2026</option>
-                        </select>
-                    </fieldset>
-                    <fieldset class="payment-form__card-holder">
-                        <input type="text" value="Держатель карты" name="card-holder" />
-                    </fieldset>
-                </form>
-                <form action="" class="back-side-card">
-                    <fieldset class="back-side-card__wrapper">
-                        <label for="card-cvv"><span>Код CVV2 / CVC2</span></label>
-                        <input id="card-cvv" type="number" maxlength="4" />
-                    </fieldset>
-                </form>
+                <header class="payment-form__header">
+                    <h1 class="payment-form__header--item">Данные банковской карты</h1>
+                </header>
+                <div class="cards__wrapper">
+                    <form class="card front-side-card" action="">
+                        <fieldset class="fieldset card-number__wrapper">
+                            <label for="card-number"><span>Номер карты</span></label>
+                            <input id="card-number" type="number" maxlength="4" />
+                            <input type="number" maxlength="4" />
+                            <input type="number" maxlength="4" />
+                            <input type="number" maxlength="4" />
+                        </fieldset>
+                        <fieldset class="fieldset card-expiration-date">
+                            <label for="card-exp"><span>Срок действия</span></label>
+                            <select id="card-exp">
+                                <option value="">01</option>
+                                <option value="">02</option>
+                                <option value="">03</option>
+                                <option value="">04</option>
+                                <option value="">05</option>
+                                <option value="">06</option>
+                                <option value="">07</option>
+                                <option value="">08</option>
+                                <option value="">09</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                            </select>
+                            <select>
+                                <option value="">2019</option>
+                                <option value="">2020</option>
+                                <option value="">2021</option>
+                                <option value="">2022</option>
+                                <option value="">2023</option>
+                                <option value="">2024</option>
+                                <option value="">2025</option>
+                                <option value="">2026</option>
+                            </select>
+                        </fieldset>
+                        <fieldset class="fieldset payment-form__card-holder">
+                            <input type="text" value="Держатель карты" name="card-holder" />
+                        </fieldset>
+                    </form>
+                    <form action="" class="card back-side-card">
+                        <fieldset class="fieldset back-side-card__wrapper">
+                            <hr class="back-side-card__magnetic-strip">
+                            <label for="card-cvv"><span>Код CVV2 / CVC2</span></label>
+                            <input id="card-cvv" type="number" maxlength="4" />
+                        </fieldset>
+                    </form>
+                </div>
                 <input type="submit" class="payment-form__card-button">
             </section>
         </section>

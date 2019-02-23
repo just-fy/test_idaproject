@@ -1,0 +1,42 @@
+/*common*/
+.fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.cards__wrapper {
+  display: flex;
+}
+.card {
+  width: 350px;
+  border: 1px solid rgb(228, 233, 238);
+  border-radius: 10px;
+  height: 230px;
+}
+/*header*/
+.payment-form__header {
+  height: 80px;
+}
+.payment-form__header--item {
+  color: rgb(56, 61, 67);
+  margin: 0;
+  padding-top: 25px;
+  font-size: 19px;
+  font-family: "OpenSans", sans-serif;
+}
+/*card number*/
+
+
+
+
+/*card expiration*/
+/*card name*/
+/*card cvv2*/
+.back-side-card__magnetic-strip {
+  margin-top: 27px;
+  border: none;
+  height: 42px;
+  background-color: #e4e9ee;
+  color: #e4e9ee; /* Цвет линии для IE6-7 */
+}
+

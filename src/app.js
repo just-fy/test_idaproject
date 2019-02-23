@@ -5,5 +5,6 @@ import './scss/typography.scss';
 import './scss/nav.scss';
 import './scss/main-section.scss';
 import './scss/page-wrapper.scss';
-import './scss/payment-heading.scss';
+import './scss/payment-header.scss';
 import './scss/footer.scss';
+import './scss/payment-form__card.scss';

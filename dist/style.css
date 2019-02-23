@@ -1,9 +1,9 @@
+h1 {
+  font-family: "Arial"; }
 body {
   margin: auto 0;
   background: white;
   color: #7f8591; }
-h1 {
-  font-family: "Arial"; }
 .main-nav {
   width: 320px; }
 
@@ -69,3 +69,38 @@ h1 {
   color: black; }
 .footer {
   background-color: #373c43; }
+@charset "UTF-8";
+/*common*/
+.fieldset {
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+.card {
+  width: 350px;
+  border: 1px solid #e4e9ee;
+  border-radius: 10px;
+  height: 230px; }
+
+/*header*/
+.payment-form__header {
+  height: 80px; }
+
+.payment-form__header--item {
+  color: #383d43;
+  margin: 0;
+  padding-top: 25px;
+  font-size: 19px;
+  font-family: "OpenSans", sans-serif; }
+
+/*card number*/
+/*card expiration*/
+/*card name*/
+/*card cvv2*/
+.back-side-card__magnetic-strip {
+  margin-top: 27px;
+  border: none;
+  height: 42px;
+  background-color: #e4e9ee;
+  color: #e4e9ee;
+  /* Цвет линии для IE6-7 */ }
