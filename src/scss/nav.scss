@@ -1,5 +1,6 @@
 .main-nav {
   width: 322px;
+  display: flex;
 }
 .main-nav__list {
   margin: 0;
@@ -8,7 +9,7 @@
   background-color: #1f2229;
 }
 .site-list__item {
-  padding: 25px 0 25px 30px;
+  padding: 25px 30px 25px 30px;
 }
 .site-list__item:hover {
   background-color: #2a2d37;
