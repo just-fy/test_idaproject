@@ -25,8 +25,23 @@
   font-family: "OpenSans", sans-serif;
 }
 /*card number*/
-
-
+.input {
+  width: 59px;
+  margin-right: 10px;
+}
+.card-number__wrapper {
+  padding: 25px 15px;
+}
+.card-number__text {
+  display: block;
+  padding-bottom: 10px;
+}
+.card-number__inputs {
+  display: flex;
+  height: 42px;
+  justify-content: left;
+  width: 100%;
+}
 
 
 /*card expiration*/
@@ -39,4 +54,5 @@
   background-color: #e4e9ee;
   color: #e4e9ee; /* Цвет линии для IE6-7 */
 }
+
 

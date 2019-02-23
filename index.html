@@ -45,11 +45,13 @@
                 <div class="cards__wrapper">
                     <form class="card front-side-card" action="">
                         <fieldset class="fieldset card-number__wrapper">
-                            <label for="card-number"><span>Номер карты</span></label>
-                            <input id="card-number" type="number" maxlength="4" />
-                            <input type="number" maxlength="4" />
-                            <input type="number" maxlength="4" />
-                            <input type="number" maxlength="4" />
+                            <label for="card-number"><span class="card-number__text">Номер карты</span></label>
+                            <div class="card-number__inputs">
+                                <input class="input card-number__inputs--item" id="card-number" type="number" maxlength="4" />
+                                <input class="input card-number__inputs--item" type="number" maxlength="4" />
+                                <input class="input card-number__inputs--item" type="number" maxlength="4" />
+                                <input class="input card-number__inputs--item" type="number" maxlength="4" />
+                            </div>
                         </fieldset>
                         <fieldset class="fieldset card-expiration-date">
                             <label for="card-exp"><span>Срок действия</span></label>
