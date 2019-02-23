@@ -1,10 +1,8 @@
-body {
-  margin: auto 0;
-  background: #101114; }
 h1 {
   font-family: "Arial"; }
 .main-nav {
-  width: 322px; }
+  width: 322px;
+  display: flex; }
 
 .main-nav__list {
   margin: 0;
@@ -41,3 +39,6 @@ h1 {
 .site-list__link--active,
 .site-list__link--logout {
   color: #808592; }
+body {
+  margin: auto 0;
+  background: #101114; }
