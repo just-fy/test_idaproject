@@ -1,8 +1,11 @@
+body {
+  margin: auto 0;
+  background: white;
+  color: #7f8591; }
 h1 {
   font-family: "Arial"; }
 .main-nav {
-  width: 322px;
-  display: flex; }
+  width: 320px; }
 
 .main-nav__list {
   margin: 0;
@@ -11,7 +14,7 @@ h1 {
   background-color: #1f2229; }
 
 .site-list__item {
-  padding: 25px 0 25px 30px; }
+  padding: 25px 30px 25px 30px; }
 
 .site-list__item:hover {
   background-color: #2a2d37;
@@ -28,7 +31,8 @@ h1 {
   text-decoration: none; }
 
 .site-list__link:hover {
-  color: #808592; }
+  color: #808592;
+  transition: color 0.5s ease; }
 
 .site-list__item--active {
   background-color: #2a2d37; }
@@ -39,6 +43,29 @@ h1 {
 .site-list__link--active,
 .site-list__link--logout {
   color: #808592; }
-body {
-  margin: auto 0;
-  background: #101114; }
+.main-section {
+  padding-left: 30px;
+  padding-top: 50px;
+  width: 640px; }
+.page-wrapper {
+  display: flex; }
+.payment-info__table {
+  border: none;
+  border-collapse: collapse;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: #535864; }
+
+.table-heading {
+  height: 36px;
+  vertical-align: top;
+  text-align: left;
+  font-weight: normal; }
+
+.table-item {
+  width: 133px; }
+
+.table-value {
+  color: black; }
+.footer {
+  background-color: #373c43; }

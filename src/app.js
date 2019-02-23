@@ -4,3 +4,6 @@ import './scss/base.scss';
 import './scss/typography.scss';
 import './scss/nav.scss';
 import './scss/main-section.scss';
+import './scss/page-wrapper.scss';
+import './scss/payment-form.scss';
+import './scss/footer.scss';

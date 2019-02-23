@@ -1,6 +1,5 @@
 .main-nav {
-  width: 322px;
-  display: flex;
+  width: 320px;
 }
 .main-nav__list {
   margin: 0;
@@ -27,6 +26,7 @@
 }
 .site-list__link:hover {
   color: #808592;
+  transition: color 0.5s ease;
 }
 .site-list__item--active {
   background-color: #2a2d37;
