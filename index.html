@@ -45,7 +45,7 @@
                 <div class="cards__wrapper">
                     <form class="card front-side-card" action="">
                         <fieldset class="fieldset card-number__wrapper">
-                            <label for="card-number"><span class="card-number__text">Номер карты</span></label>
+                            <label for="card-number"><span class="card__text">Номер карты</span></label>
                             <div class="card-number__inputs">
                                 <input class="input card-number__inputs--item" id="card-number" type="number" maxlength="4" />
                                 <input class="input card-number__inputs--item" type="number" maxlength="4" />
@@ -54,30 +54,32 @@
                             </div>
                         </fieldset>
                         <fieldset class="fieldset card-expiration-date">
-                            <label for="card-exp"><span>Срок действия</span></label>
-                            <select id="card-exp">
-                                <option value="">01</option>
-                                <option value="">02</option>
-                                <option value="">03</option>
-                                <option value="">04</option>
-                                <option value="">05</option>
-                                <option value="">06</option>
-                                <option value="">07</option>
-                                <option value="">08</option>
-                                <option value="">09</option>
-                                <option value="">10</option>
-                                <option value="">11</option>
-                                <option value="">12</option>
-                            </select>
-                            <select>
-                                <option value="">2019</option>
-                                <option value="">2020</option>
-                                <option value="">2021</option>
-                                <option value="">2022</option>
-                                <option value="">2023</option>
-                                <option value="">2024</option>
-                                <option value="">2025</option>
-                                <option value="">2026</option>
+                            <label for="card-exp"><span class="card__text">Срок действия</span></label>
+                            <div class="custom-select">
+                                <select id="card-exp" class="exp-form card-exp-month__list">
+                                    <option class="card-expiration__list--item" value="">01</option>
+                                    <option class="card-expiration__list--item" value="">02</option>
+                                    <option class="card-expiration__list--item" value="">03</option>
+                                    <option class="card-expiration__list--item" value="">04</option>
+                                    <option class="card-expiration__list--item" value="">05</option>
+                                    <option class="card-expiration__list--item" value="">06</option>
+                                    <option class="card-expiration__list--item" value="">07</option>
+                                    <option class="card-expiration__list--item" value="">08</option>
+                                    <option class="card-expiration__list--item" value="">09</option>
+                                    <option class="card-expiration__list--item" value="">10</option>
+                                    <option class="card-expiration__list--item" value="">11</option>
+                                    <option class="card-expiration__list--item" value="">12</option>
+                                </select>
+                            </div>
+                            <select class="exp-form card-exp-year__list">
+                                <option class="card-exp-year__list--item" value="">2019</option>
+                                <option class="card-exp-year__list--item" value="">2020</option>
+                                <option class="card-exp-year__list--item" value="">2021</option>
+                                <option class="card-exp-year__list--item" value="">2022</option>
+                                <option class="card-exp-year__list--item" value="">2023</option>
+                                <option class="card-exp-year__list--item" value="">2024</option>
+                                <option class="card-exp-year__list--item" value="">2025</option>
+                                <option class="card-exp-year__list--item" value="">2026</option>
                             </select>
                         </fieldset>
                         <fieldset class="fieldset payment-form__card-holder">
@@ -96,18 +98,20 @@
             </section>
         </section>
         <footer class="footer">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis dolor dolorum eligendi iste
-                laboriosam laudantium modi molestias repudiandae voluptas? Aspernatur cumque dicta dolor mollitia nisi
-                numquam obcaecati vel voluptatibus?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus dicta esse fuga fugiat libero
-                magnam molestiae nesciunt.</p>
-            <p>Consectetur cum delectus earum fuga illo ipsam itaque laborum nulla perspiciatis porro reprehenderit saepe
-                ut, vitae.</p>
-            <p>Amet enim laudantium nostrum soluta velit voluptatibus. Aspernatur consequatur culpa cupiditate eligendi nam
-                omnis quae, quam reiciendis sit veniam. Accusamus cumque laboriosam nobis sed voluptas. Aut itaque quod
-                tempore voluptatem. Nostrum soluta velit voluptatibus. Aspernatur consequatur culpa cupiditate eligendi nam
-                omnis quae, quam reiciendis sit veniam. Accusamus cumque laboriosam nobis sed voluptas. Aut itaque quod
-                tempore voluptatem.</p>
+            <div class="footer__info">
+                <p class="footer__info--item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis dolor dolorum eligendi iste
+                    laboriosam laudantium modi molestias repudiandae voluptas? Aspernatur cumque dicta dolor mollitia nisi
+                    numquam obcaecati vel voluptatibus?</p>
+                <p class="footer__info--item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus dicta esse fuga fugiat libero
+                    magnam molestiae nesciunt.</p>
+                <p class="footer__info--item">Consectetur cum delectus earum fuga illo ipsam itaque laborum nulla perspiciatis porro reprehenderit saepe
+                    ut, vitae.</p>
+                <p class="footer__info--item">Amet enim laudantium nostrum soluta velit voluptatibus. Aspernatur consequatur culpa cupiditate eligendi nam
+                    omnis quae, quam reiciendis sit veniam. Accusamus cumque laboriosam nobis sed voluptas. Aut itaque quod
+                    tempore voluptatem. Nostrum soluta velit voluptatibus. Aspernatur consequatur culpa cupiditate eligendi nam
+                    omnis quae, quam reiciendis sit veniam. Accusamus cumque laboriosam nobis sed voluptas. Aut itaque quod
+                    tempore voluptatem.</p>
+            </div>
         </footer>
     </main>
 </div>

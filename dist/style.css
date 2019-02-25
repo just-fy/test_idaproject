@@ -1,9 +1,9 @@
+h1 {
+  font-family: "Arial"; }
 body {
   margin: auto 0;
   background: #101114;
   color: #7f8591; }
-h1 {
-  font-family: "Arial"; }
 .main-nav {
   width: 320px; }
 
@@ -45,6 +45,9 @@ h1 {
   color: #808592; }
 .main-section {
   background-color: #f7f8f8;
+  width: 765px; }
+
+.payment-form {
   padding-left: 30px;
   padding-top: 50px; }
 .page-wrapper {
@@ -69,6 +72,14 @@ h1 {
   color: black; }
 .footer {
   background-color: #373c43; }
+
+.footer__info {
+  margin: 0;
+  padding: 30px; }
+
+.footer__info--item {
+  margin: 0;
+  padding-bottom: 15px; }
 @charset "UTF-8";
 /*common*/
 .fieldset {
@@ -85,6 +96,10 @@ h1 {
   border-radius: 10px;
   height: 230px; }
 
+.card__text {
+  display: block;
+  padding-bottom: 10px; }
+
 /*header*/
 .payment-form__header {
   height: 80px; }
@@ -98,14 +113,11 @@ h1 {
 
 /*card number*/
 .input {
-  width: 65px; }
+  width: 59px;
+  margin-right: 10px; }
 
 .card-number__wrapper {
   padding: 25px 15px; }
-
-.card-number__text {
-  display: block;
-  padding-bottom: 10px; }
 
 .card-number__inputs {
   display: flex;
@@ -114,6 +126,10 @@ h1 {
   width: 100%; }
 
 /*card expiration*/
+.card-expiration-date {
+  padding-left: 15px;
+  padding-bottom: 13px; }
+
 /*card name*/
 /*card cvv2*/
 .back-side-card__magnetic-strip {

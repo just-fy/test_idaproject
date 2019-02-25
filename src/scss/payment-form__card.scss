@@ -13,6 +13,10 @@
   border-radius: 10px;
   height: 230px;
 }
+.card__text {
+  display: block;
+  padding-bottom: 10px;
+}
 /*header*/
 .payment-form__header {
   height: 80px;
@@ -32,10 +36,7 @@
 .card-number__wrapper {
   padding: 25px 15px;
 }
-.card-number__text {
-  display: block;
-  padding-bottom: 10px;
-}
+
 .card-number__inputs {
   display: flex;
   height: 42px;
@@ -43,8 +44,12 @@
   width: 100%;
 }
 
-
 /*card expiration*/
+.card-expiration-date {
+  padding-left: 15px;
+  padding-bottom: 13px;
+}
+
 /*card name*/
 /*card cvv2*/
 .back-side-card__magnetic-strip {
