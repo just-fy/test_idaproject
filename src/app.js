@@ -1,4 +1,4 @@
-import './js/js.js';
+import './js/card-exp-select.js';
 import './js/js2.js';
 import './scss/base.scss';
 import './scss/typography.scss';
