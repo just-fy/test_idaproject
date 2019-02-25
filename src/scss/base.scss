@@ -1,8 +1,11 @@
 $bg-color: #101114;
 
 body {
+  font-family: "Arial", serif;
   margin: auto 0;
   background: $bg-color;
-  //background: white;
   color: rgb(127, 133, 145);
+}
+:focus {
+  outline: none;
 }

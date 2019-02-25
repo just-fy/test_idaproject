@@ -1,8 +1,10 @@
 /*common*/
 .fieldset {
   border: none;
-  padding: 0;
+  padding-left: 15px;
   margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .cards__wrapper {
   display: flex;
@@ -11,11 +13,16 @@
   width: 350px;
   border: 1px solid rgb(228, 233, 238);
   border-radius: 10px;
-  height: 230px;
+  height: 240px;
+  margin-bottom: 30px;
 }
 .card__text {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  font-family: "Arial", sans-serif;
+}
+.card-expiration-date {
+  padding: 0 15px;
 }
 /*header*/
 .payment-form__header {
@@ -29,28 +36,33 @@
   font-family: "OpenSans", sans-serif;
 }
 /*card number*/
+.card-number__wrapper {
+  padding-top: 24px;
+}
 .input {
   width: 59px;
   margin-right: 10px;
+  border: 1px solid rgb(228, 233, 238);
+  outline: none;
 }
-.card-number__wrapper {
-  padding: 25px 15px;
-}
-
 .card-number__inputs {
   display: flex;
   height: 42px;
   justify-content: left;
   width: 100%;
 }
-
-/*card expiration*/
-.card-expiration-date {
-  padding-left: 15px;
-  padding-bottom: 13px;
-}
-
 /*card name*/
+.payment-form__card-holder {
+  padding-top: 13px;
+}
+.card-holder__field {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(228, 233, 238);
+  color: rgb(190, 198, 207);
+  font-size: 16px;
+  padding-left: 10px;
+}
 /*card cvv2*/
 .back-side-card__magnetic-strip {
   margin-top: 27px;
