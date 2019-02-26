@@ -15,15 +15,20 @@
   border-radius: 10px;
   height: 240px;
   margin-bottom: 30px;
+  background-color: #f7f8f8;
 }
 .card__text {
   display: block;
   padding-bottom: 5px;
   font-family: "Arial", sans-serif;
 }
+.front-side-card {
+  z-index: 1;
+}
 .card-expiration-date {
   padding: 0 15px;
 }
+
 /*header*/
 .payment-form__header {
   height: 80px;
@@ -51,6 +56,16 @@
   justify-content: left;
   width: 100%;
 }
+.card-number__inputs--item,
+.card-cvv__input{
+  -moz-appearance: textfield;
+}
+.card-number__inputs--item::-webkit-inner-spin-button,
+.card-number__inputs--item::-webkit-outer-spin-button,
+.card-cvv__input::-webkit-inner-spin-button,
+.card-cvv__input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
 /*card name*/
 .payment-form__card-holder {
   padding-top: 13px;
@@ -62,14 +77,9 @@
   color: rgb(190, 198, 207);
   font-size: 16px;
   padding-left: 10px;
+  text-transform: uppercase;
 }
-/*card cvv2*/
-.back-side-card__magnetic-strip {
-  margin-top: 27px;
-  border: none;
-  height: 42px;
-  background-color: #e4e9ee;
-  color: #e4e9ee; /* Цвет линии для IE6-7 */
-}
+
+
 
 

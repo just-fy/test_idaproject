@@ -1,0 +1,21 @@
+.payment-form__card-button {
+  cursor: pointer;
+  margin: 10px 0 40px 15px;
+  border: none;
+  font-size: 14px;
+  width: 133px;
+  height: 40px;
+  background: linear-gradient(#004da4, #167ff7);
+  color: darken(white, 2);
+  border-radius: 20px;
+  transition: all .1s ease-in-out;
+  &:hover {
+    background: linear-gradient(#167ff7, #004da4);
+    transition: all .1s ease-in-out;
+  }
+  &:active {
+    background: linear-gradient(#167ff7, #004da4);
+    transform: translateY(1px);
+  }
+}
+

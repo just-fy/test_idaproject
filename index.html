@@ -44,7 +44,7 @@
                     <h1 class="payment-form__header--item">Данные банковской карты</h1>
                 </header>
                 <div class="cards__wrapper">
-                    <form class="card front-side-card" action="">
+                    <form class="card front-side-card" action="" name="frontCard">
                         <fieldset class="fieldset card-number__wrapper">
                             <label for="card-number"><span class="card__text">Номер карты</span></label>
                             <div class="card-number__inputs">
@@ -82,18 +82,21 @@
                             </select>
                         </fieldset>
                         <fieldset class="fieldset payment-form__card-holder">
-                            <input class="card-holder__field" type="text" value="Держатель карты" name="card-holder" />
+                            <input class="card-holder__field" type="text" name="card-holder" onfocus="this.value=''" value="Держатель карты" />
                         </fieldset>
                     </form>
                     <form action="" class="card back-side-card">
                         <fieldset class="fieldset back-side-card__wrapper">
-                            <hr class="back-side-card__magnetic-strip">
-                            <label for="card-cvv"><span>Код CVV2 / CVC2</span></label>
-                            <input id="card-cvv" type="number" maxlength="4" />
+                            <div class="strip__wrapper"><hr class="back-side-card__magnetic-strip"></div>
+                            <label for="card-cvv"><span class="card__CVV">Код CVV2 / CVC2</span></label>
+                            <div class="card-cvv__wrapper">
+                                <input id="card-cvv" class="card-cvv__input" type="number" maxlength="4" />
+                                <div class="cvv-hint"><small class="cvv-hint--item">?</small></div>
+                            </div>
                         </fieldset>
                     </form>
                 </div>
-                <input type="submit" class="payment-form__card-button">
+                <input type="submit" class="payment-form__card-button" value="Оплатить">
             </section>
         </section>
         <footer class="footer">

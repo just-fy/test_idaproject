@@ -1,3 +1,13 @@
+h1 {
+  font-family: "Arial"; }
+body {
+  font-family: "Arial", serif;
+  margin: auto 0;
+  background: #101114;
+  color: #7f8591; }
+
+:focus {
+  outline: none; }
 .main-nav {
   width: 320px; }
 
@@ -36,16 +46,6 @@
 .site-list__link--active,
 .site-list__link--logout {
   color: #808592; }
-h1 {
-  font-family: "Arial"; }
-body {
-  font-family: "Arial", serif;
-  margin: auto 0;
-  background: #101114;
-  color: #7f8591; }
-
-:focus {
-  outline: none; }
 .main-section {
   background-color: #f7f8f8;
   width: 765px; }
@@ -83,7 +83,6 @@ body {
 .footer__info--item {
   margin: 0;
   padding-bottom: 15px; }
-@charset "UTF-8";
 /*common*/
 .fieldset {
   border: none;
@@ -100,12 +99,16 @@ body {
   border: 1px solid #e4e9ee;
   border-radius: 10px;
   height: 240px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background-color: #f7f8f8; }
 
 .card__text {
   display: block;
   padding-bottom: 5px;
   font-family: "Arial", sans-serif; }
+
+.front-side-card {
+  z-index: 1; }
 
 .card-expiration-date {
   padding: 0 15px; }
@@ -137,6 +140,16 @@ body {
   justify-content: left;
   width: 100%; }
 
+.card-number__inputs--item,
+.card-cvv__input {
+  -moz-appearance: textfield; }
+
+.card-number__inputs--item::-webkit-inner-spin-button,
+.card-number__inputs--item::-webkit-outer-spin-button,
+.card-cvv__input::-webkit-inner-spin-button,
+.card-cvv__input::-webkit-outer-spin-button {
+  -webkit-appearance: none; }
+
 /*card name*/
 .payment-form__card-holder {
   padding-top: 13px; }
@@ -147,16 +160,8 @@ body {
   border: 1px solid #e4e9ee;
   color: #bec6cf;
   font-size: 16px;
-  padding-left: 10px; }
-
-/*card cvv2*/
-.back-side-card__magnetic-strip {
-  margin-top: 27px;
-  border: none;
-  height: 42px;
-  background-color: #e4e9ee;
-  color: #e4e9ee;
-  /* Цвет линии для IE6-7 */ }
+  padding-left: 10px;
+  text-transform: uppercase; }
 .card-expiration-date {
   padding-top: 18px; }
 
@@ -221,3 +226,69 @@ body {
       background: #e6e6e6; }
     .select-options li[rel="hide"] {
       display: none; }
+@charset "UTF-8";
+.back-side-card {
+  position: relative;
+  top: 20px;
+  right: 155px;
+  z-index: 0; }
+
+.back-side-card__wrapper {
+  padding: 0; }
+
+.card__CVV {
+  display: block;
+  float: right;
+  margin-right: 32px;
+  margin-left: 27px;
+  margin-bottom: 5px; }
+
+#card-cvv {
+  float: right;
+  margin-right: 20px;
+  height: 40px;
+  width: 138px;
+  border: 1px solid #e4e9ee; }
+
+.strip__wrapper {
+  margin-top: 25px;
+  margin-bottom: 13px; }
+
+.back-side-card__magnetic-strip {
+  margin: 0;
+  border: none;
+  height: 42px;
+  background-color: #e4e9ee;
+  color: #e4e9ee;
+  /* Цвет линии для IE6-7 */ }
+
+.cvv-hint {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #e4e9ee;
+  position: absolute;
+  left: 296px;
+  bottom: 104px;
+  border-radius: 13px;
+  cursor: pointer; }
+
+.cvv-hint--item {
+  padding-left: 7px;
+  color: #e4e9ee; }
+.payment-form__card-button {
+  cursor: pointer;
+  margin: 10px 0 40px 15px;
+  border: none;
+  font-size: 14px;
+  width: 133px;
+  height: 40px;
+  background: linear-gradient(#004da4, #167ff7);
+  color: #fafafa;
+  border-radius: 20px;
+  transition: all .1s ease-in-out; }
+  .payment-form__card-button:hover {
+    background: linear-gradient(#167ff7, #004da4);
+    transition: all .1s ease-in-out; }
+  .payment-form__card-button:active {
+    background: linear-gradient(#167ff7, #004da4);
+    transform: translateY(1px); }

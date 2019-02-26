@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_card_exp_select_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/card-exp-select.js */ \"./src/js/card-exp-select.js\");\n/* harmony import */ var _js_card_exp_select_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_card_exp_select_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _js_js2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/js2.js */ \"./src/js/js2.js\");\n/* harmony import */ var _js_js2_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_js2_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/base.scss */ \"./src/scss/base.scss\");\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_base_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scss_typography_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/typography.scss */ \"./src/scss/typography.scss\");\n/* harmony import */ var _scss_typography_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_typography_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _scss_nav_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scss/nav.scss */ \"./src/scss/nav.scss\");\n/* harmony import */ var _scss_nav_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_nav_scss__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _scss_main_section_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./scss/main-section.scss */ \"./src/scss/main-section.scss\");\n/* harmony import */ var _scss_main_section_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_scss_main_section_scss__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _scss_page_wrapper_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scss/page-wrapper.scss */ \"./src/scss/page-wrapper.scss\");\n/* harmony import */ var _scss_page_wrapper_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_scss_page_wrapper_scss__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _scss_payment_header_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scss/payment-header.scss */ \"./src/scss/payment-header.scss\");\n/* harmony import */ var _scss_payment_header_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_scss_payment_header_scss__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _scss_footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./scss/footer.scss */ \"./src/scss/footer.scss\");\n/* harmony import */ var _scss_footer_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_scss_footer_scss__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _scss_payment_form_card_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scss/payment-form__card.scss */ \"./src/scss/payment-form__card.scss\");\n/* harmony import */ var _scss_payment_form_card_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_scss_payment_form_card_scss__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _scss_card_expiration_date_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./scss/card-expiration-date.scss */ \"./src/scss/card-expiration-date.scss\");\n/* harmony import */ var _scss_card_expiration_date_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_scss_card_expiration_date_scss__WEBPACK_IMPORTED_MODULE_10__);\n\n\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_card_exp_select_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/card-exp-select.js */ \"./src/js/card-exp-select.js\");\n/* harmony import */ var _js_card_exp_select_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_card_exp_select_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _js_name_card_holder_validation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/name-card-holder_validation.js */ \"./src/js/name-card-holder_validation.js\");\n/* harmony import */ var _js_name_card_holder_validation_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_name_card_holder_validation_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/base.scss */ \"./src/scss/base.scss\");\n/* harmony import */ var _scss_base_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_base_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scss_typography_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/typography.scss */ \"./src/scss/typography.scss\");\n/* harmony import */ var _scss_typography_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_typography_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _scss_nav_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scss/nav.scss */ \"./src/scss/nav.scss\");\n/* harmony import */ var _scss_nav_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_nav_scss__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _scss_main_section_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./scss/main-section.scss */ \"./src/scss/main-section.scss\");\n/* harmony import */ var _scss_main_section_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_scss_main_section_scss__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _scss_page_wrapper_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scss/page-wrapper.scss */ \"./src/scss/page-wrapper.scss\");\n/* harmony import */ var _scss_page_wrapper_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_scss_page_wrapper_scss__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _scss_payment_header_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scss/payment-header.scss */ \"./src/scss/payment-header.scss\");\n/* harmony import */ var _scss_payment_header_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_scss_payment_header_scss__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _scss_footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./scss/footer.scss */ \"./src/scss/footer.scss\");\n/* harmony import */ var _scss_footer_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_scss_footer_scss__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _scss_payment_form_card_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scss/payment-form__card.scss */ \"./src/scss/payment-form__card.scss\");\n/* harmony import */ var _scss_payment_form_card_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_scss_payment_form_card_scss__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _scss_card_expiration_date_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./scss/card-expiration-date.scss */ \"./src/scss/card-expiration-date.scss\");\n/* harmony import */ var _scss_card_expiration_date_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_scss_card_expiration_date_scss__WEBPACK_IMPORTED_MODULE_10__);\n/* harmony import */ var _scss_back_side_card_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scss/back-side-card.scss */ \"./src/scss/back-side-card.scss\");\n/* harmony import */ var _scss_back_side_card_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_scss_back_side_card_scss__WEBPACK_IMPORTED_MODULE_11__);\n/* harmony import */ var _scss_payment_button_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./scss/payment-button.scss */ \"./src/scss/payment-button.scss\");\n/* harmony import */ var _scss_payment_button_scss__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_scss_payment_button_scss__WEBPACK_IMPORTED_MODULE_12__);\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -109,14 +109,25 @@ eval("$('select').each(function () {\n    const $this = $(this);\n    const numb
 
 /***/ }),
 
-/***/ "./src/js/js2.js":
-/*!***********************!*\
-  !*** ./src/js/js2.js ***!
-  \***********************/
+/***/ "./src/js/name-card-holder_validation.js":
+/*!***********************************************!*\
+  !*** ./src/js/name-card-holder_validation.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('Another checking');\n\n//# sourceURL=webpack:///./src/js/js2.js?");
+eval("\n\n//# sourceURL=webpack:///./src/js/name-card-holder_validation.js?");
+
+/***/ }),
+
+/***/ "./src/scss/back-side-card.scss":
+/*!**************************************!*\
+  !*** ./src/scss/back-side-card.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/back-side-card.scss?");
 
 /***/ }),
 
@@ -183,6 +194,17 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./sr
 /***/ (function(module, exports) {
 
 eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/page-wrapper.scss?");
+
+/***/ }),
+
+/***/ "./src/scss/payment-button.scss":
+/*!**************************************!*\
+  !*** ./src/scss/payment-button.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/payment-button.scss?");
 
 /***/ }),
 
