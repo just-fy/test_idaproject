@@ -150,6 +150,12 @@ body {
 .card-cvv__input::-webkit-outer-spin-button {
   -webkit-appearance: none; }
 
+.card-number__inputs--item,
+.card-number__inputs--item:focus {
+  text-align: center;
+  font-size: 16px;
+  color: #333333; }
+
 /*card name*/
 .payment-form__card-holder {
   padding-top: 13px; }

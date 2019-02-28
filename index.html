@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='stylesheet' href='dist/style.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='dist/style.css'>
     <title>Test_idaproject</title>
 </head>
 <body>
@@ -48,10 +48,10 @@
                         <fieldset class="fieldset card-number__wrapper">
                             <label for="card-number"><span class="card__text">Номер карты</span></label>
                             <div class="card-number__inputs">
-                                <input class="input card-number__inputs--item" id="card-number" type="number" maxlength="4" />
-                                <input class="input card-number__inputs--item" type="number" maxlength="4" />
-                                <input class="input card-number__inputs--item" type="number" maxlength="4" />
-                                <input class="input card-number__inputs--item" type="number" maxlength="4" />
+                                <input class="input card-number__inputs--item" id="card-number" maxlength="4" type="text" autofocus/>
+                                <input class="input card-number__inputs--item" type="text" maxlength="4" />
+                                <input class="input card-number__inputs--item" type="text" maxlength="4" />
+                                <input class="input card-number__inputs--item" type="text" maxlength="6" />
                             </div>
                         </fieldset>
                         <fieldset class="fieldset card-expiration-date">
@@ -82,7 +82,7 @@
                             </select>
                         </fieldset>
                         <fieldset class="fieldset payment-form__card-holder">
-                            <input class="card-holder__field" type="text" name="card-holder" onfocus="this.value=''" value="Держатель карты" />
+                            <input class="card-holder__field" type="text" name="card-holder" onfocus="this.placeholder=''" placeholder="Держатель карты" />
                         </fieldset>
                     </form>
                     <form action="" class="card back-side-card">
@@ -90,7 +90,7 @@
                             <div class="strip__wrapper"><hr class="back-side-card__magnetic-strip"></div>
                             <label for="card-cvv"><span class="card__CVV">Код CVV2 / CVC2</span></label>
                             <div class="card-cvv__wrapper">
-                                <input id="card-cvv" class="card-cvv__input" type="number" maxlength="4" />
+                                <input id="card-cvv" class="card-cvv__input" type="text" maxlength="3" />
                                 <div class="cvv-hint"><small class="cvv-hint--item">?</small></div>
                             </div>
                         </fieldset>
