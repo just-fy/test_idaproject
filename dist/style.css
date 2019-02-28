@@ -1,10 +1,11 @@
 h1 {
   font-family: "Arial"; }
 body {
-  font-family: "Arial", serif;
   margin: auto 0;
+  font-family: "Arial", serif;
   background: #101114;
-  color: #7f8591; }
+  color: #bec1cb;
+  font-size: 16px; }
 
 :focus {
   outline: none; }
@@ -232,7 +233,33 @@ body {
       background: #e6e6e6; }
     .select-options li[rel="hide"] {
       display: none; }
-@charset "UTF-8";
+.payment-form__card-button {
+  cursor: pointer;
+  margin: 10px 0 40px 15px;
+  border: none;
+  font-size: 14px;
+  width: 133px;
+  height: 40px;
+  background: linear-gradient(#004da4, #167ff7);
+  color: #fafafa;
+  border-radius: 20px;
+  transition: all .1s ease-in-out; }
+  .payment-form__card-button:hover {
+    background: linear-gradient(#167ff7, #004da4);
+    transition: all .1s ease-in-out; }
+  .payment-form__card-button:active {
+    background: linear-gradient(#167ff7, #004da4);
+    transform: translateY(1px); }
+body {
+  margin: auto 0;
+  font-family: "Arial", serif;
+  background: #101114;
+  color: #bec1cb;
+  font-size: 16px; }
+
+:focus {
+  outline: none; }
+
 .back-side-card {
   position: relative;
   top: 20px;
@@ -251,10 +278,12 @@ body {
 
 #card-cvv {
   float: right;
-  margin-right: 20px;
+  position: relative;
+  left: 145px;
+  top: 23px;
   height: 40px;
   width: 138px;
-  border: 1px solid #e4e9ee; }
+  border: 1px solid #dddfe4; }
 
 .strip__wrapper {
   margin-top: 25px;
@@ -264,37 +293,17 @@ body {
   margin: 0;
   border: none;
   height: 42px;
-  background-color: #e4e9ee;
-  color: #e4e9ee;
-  /* Цвет линии для IE6-7 */ }
+  background-color: #dddfe4; }
 
 .cvv-hint {
   width: 20px;
   height: 20px;
-  border: 1px solid #e4e9ee;
+  border: 1px solid #dddfe4;
   position: absolute;
-  left: 296px;
+  left: 275px;
   bottom: 104px;
   border-radius: 13px;
   cursor: pointer; }
 
 .cvv-hint--item {
-  padding-left: 7px;
-  color: #e4e9ee; }
-.payment-form__card-button {
-  cursor: pointer;
-  margin: 10px 0 40px 15px;
-  border: none;
-  font-size: 14px;
-  width: 133px;
-  height: 40px;
-  background: linear-gradient(#004da4, #167ff7);
-  color: #fafafa;
-  border-radius: 20px;
-  transition: all .1s ease-in-out; }
-  .payment-form__card-button:hover {
-    background: linear-gradient(#167ff7, #004da4);
-    transition: all .1s ease-in-out; }
-  .payment-form__card-button:active {
-    background: linear-gradient(#167ff7, #004da4);
-    transform: translateY(1px); }
+  padding-left: 7px; }

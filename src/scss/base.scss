@@ -1,10 +1,15 @@
-$bg-color: #101114;
+$base-color: rgb(16, 17, 20);
+$font-color: lighten($base-color, 70%);
+$border-color: lighten($base-color, 81%);
+$font: "Arial", serif;
+$font-size: 16px;
 
 body {
-  font-family: "Arial", serif;
   margin: auto 0;
-  background: $bg-color;
-  color: rgb(127, 133, 145);
+  font-family: $font;
+  background: $base-color;
+  color: $font-color;
+  font-size: $font-size;
 }
 :focus {
   outline: none;

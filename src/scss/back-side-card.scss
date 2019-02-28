@@ -1,3 +1,5 @@
+@import "base";
+
 .back-side-card {
   position: relative;
   top: 20px;
@@ -16,10 +18,12 @@
 }
 #card-cvv {
   float: right;
-  margin-right: 20px;
+  position: relative;
+  left: 145px;
+  top: 23px;
   height: 40px;
   width: 138px;
-  border: 1px solid rgb(228, 233, 238);
+  border: 1px solid $border-color;
 }
 .strip__wrapper {
   margin-top: 25px;
@@ -29,20 +33,18 @@
   margin: 0;
   border: none;
   height: 42px;
-  background-color: #e4e9ee;
-  color: #e4e9ee; /* Цвет линии для IE6-7 */
+  background-color: $border-color;
 }
 .cvv-hint {
   width: 20px;
   height: 20px;
-  border: 1px solid rgb(228, 233, 238);
+  border: 1px solid $border-color;
   position: absolute;
-  left: 296px;
+  left: 275px;
   bottom: 104px;
   border-radius: 13px;
   cursor: pointer;
 }
 .cvv-hint--item {
   padding-left: 7px;
-  color: rgb(228, 233, 238);
 }
